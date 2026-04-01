@@ -1,4 +1,7 @@
 import React from 'react'
+import packageImg from '../assets/package.png';
+import userImg from '../assets/user.png';
+import rocketImg from '../assets/rocket.png';   
 
 const Steps = () => {
   return (
@@ -13,7 +16,7 @@ const Steps = () => {
                 <div className='shadow-xl text-center space-y-4 rounded-2xl p-10 border relative'>
                     <div className='absolute top-6 right-6 bg-violet-600 text-white rounded-full w-8 h-8 flex justify-center items-center text-sm'>01</div>
                     <div className='flex justify-center items-center'>
-                        <img className='rounded-full p-6 bg-violet-100 w-24 h-24' src='../assets/user.png' />
+                        <img className='rounded-full p-6 bg-violet-100 w-24 h-24' src={userImg} />
                     </div>
                     <h2 className='text-2xl font-semibold'>Create Account</h2>
                     <p className='text-gray-500'>Sign up for free in seconds. No credit card required to get started.</p>
@@ -22,7 +25,7 @@ const Steps = () => {
                 <div className='shadow-xl text-center space-y-4 rounded-2xl p-10 border relative'>
                     <div className='absolute top-6 right-6 bg-violet-600 text-white rounded-full w-8 h-8 flex justify-center items-center text-sm'>02</div>
                     <div className='flex justify-center items-center'>
-                        <img className='rounded-full p-6 bg-violet-100 w-24 h-24' src='../assets/package.png' />
+                        <img className='rounded-full p-6 bg-violet-100 w-24 h-24' src={packageImg} />
                     </div>
                     <h2 className='text-2xl font-semibold'>Choose Products</h2>
                     <p className='text-gray-500'>Browse our catalog and select the tools that fit your needs.</p>
@@ -31,7 +34,7 @@ const Steps = () => {
                 <div className='shadow-xl text-center space-y-4 rounded-2xl p-10 border relative'>
                     <div className='absolute top-6 right-6 bg-violet-600 text-white rounded-full w-8 h-8 flex justify-center items-center text-sm'>03</div>
                     <div className='flex justify-center items-center'>
-                        <img className='rounded-full p-6 bg-violet-100 w-24 h-24' src='../assets/rocket.png' />
+                        <img className='rounded-full p-6 bg-violet-100 w-24 h-24' src={rocketImg} />
                     </div>
                     <h2 className='text-2xl font-semibold'>Start Creating</h2>
                     <p className='text-gray-500'>Download and start using your premium tools immediately.</p>

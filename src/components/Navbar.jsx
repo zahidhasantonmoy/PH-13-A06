@@ -1,5 +1,5 @@
 import React from 'react';
-
+import shoppingCart from '../assets/products/shopping-cart.png';
 const Navbar = ({ cartCount }) => {
   return (
     <div className="navbar bg-base-100 px-2 lg:px-12 py-3 w-full top-0 z-50 shadow-sm">
@@ -35,7 +35,7 @@ const Navbar = ({ cartCount }) => {
       <div className="navbar-end flex items-center gap-3 lg:gap-6 w-full lg:w-[50%] justify-end">
         <div className="indicator cursor-pointer">
           <span className="indicator-item badge badge-secondary badge-sm">{cartCount}</span>
-          <img src="\src\assets\products\shopping-cart.png" alt="Cart" className="w-5 h-5 lg:w-6 lg:h-6" />
+          <img src={shoppingCart} alt="Cart" className="w-5 h-5 lg:w-6 lg:h-6" />
         </div>
         <a className="hidden lg:block cursor-pointer text-gray-700 font-medium hover:text-[#7e22ce]">Login</a>
         <a className="btn bg-[#7e22ce] hover:bg-[#6b21a8] text-white rounded-full px-4 lg:px-6 min-h-0 h-9 lg:h-12 border-none normal-case text-sm lg:text-base">Get Started</a>
