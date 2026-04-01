@@ -11,6 +11,7 @@ import Cart from './components/Cart';
 import { toast } from 'react-toastify';
 import { useEffect } from 'react';
 import Steps from './components/Steps';
+import Transparent from './components/Transparent';
 
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
         </div>
       </div>
           <Steps />
+          <Transparent />
       <Footer />
       <ToastContainer position="top-center" autoClose={1500} />
     </div>
