@@ -1,6 +1,7 @@
 import React from 'react';
 import { CircleDot, Play } from 'lucide-react';
 import bannerImg from '../assets/banner.png';
+import playIcon from '../assets/Play.png';
 
 
 const Banner = () => {
@@ -31,7 +32,7 @@ const Banner = () => {
               Explore Products
             </button>
             <button className="btn bg-white border border-[#7e22ce] text-[#7e22ce] hover:bg-[#7e22ce] hover:text-white hover:border-[#7e22ce] rounded-full px-8 lg:px-10 normal-case text-base lg:text-lg h-14 min-h-0 flex items-center gap-2">
-              <img src="./assets/Play.png" alt="" /> Watch Demo
+              <img src={playIcon} alt="" /> Watch Demo
             </button>
           </div>
         </div>
