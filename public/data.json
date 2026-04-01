@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "CodeMaster Pro",
+    "description": "Advanced code editor with built-in AI completion and seamless Git integration.",
+    "price": 89.00,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "primary",
+    "features": [
+      "AI code suggestions",
+      "Real-time debugging",
+      "Cloud sync"
+    ],
+    "icon": "https://img.icons8.com/color/48/code.png"
+  },
+  {
+    "id": "2",
+    "name": "DesignCanvas M",
+    "description": "Intuitive vector graphics tool for UI/UX designers and digital artists.",
+    "price": 15.00,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "secondary",
+    "features": [
+      "1000+ templates",
+      "Auto-layout",
+      "Export to PDF"
+    ],
+    "icon": "https://img.icons8.com/color/48/design.png"
+  },
+  {
+    "id": "3",
+    "name": "SecureCrypt VPN",
+    "description": "High-speed, offline-first secure tunneling for complete data privacy.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "Essential",
+    "tagType": "accent",
+    "features": [
+      "No-log policy",
+      "Kill switch",
+      "Connect 5 devices"
+    ],
+    "icon": "https://img.icons8.com/color/48/lock.png"
+  },
+  {
+    "id": "4",
+    "name": "SEO Ranker Pro",
+    "description": "Complete toolkit for keyword research and tracking your website ranking.",
+    "price": 199.00,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "primary",
+    "features": [
+      "Keyword analyzer",
+      "Competitor tracking",
+      "Weekly reports"
+    ],
+    "icon": "https://img.icons8.com/color/48/search.png"
+  },
+  {
+    "id": "5",
+    "name": "VideoRender Max",
+    "description": "Cloud-based video rendering engine for high quality cinematic projects.",
+    "price": 120.00,
+    "period": "yearly",
+    "tag": "Pro",
+    "tagType": "secondary",
+    "features": [
+      "4K export",
+      "Cloud storage",
+      "Auto subtitles"
+    ],
+    "icon": "https://img.icons8.com/color/48/video.png"
+  },
+  {
+    "id": "6",
+    "name": "TaskFlow Agile",
+    "description": "Project management dashboard built for fast-moving remote teams.",
+    "price": 12.00,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "primary",
+    "features": [
+      "Kanban boards",
+      "Time tracking",
+      "Team chat"
+    ],
+    "icon": "https://img.icons8.com/color/48/task.png"
+  },
+  {
+    "id": "7",
+    "name": "PassVault Secure",
+    "description": "Encrypted password manager to keep all your accounts safe in one place.",
+    "price": 25.00,
+    "period": "yearly",
+    "tag": "Essential",
+    "tagType": "accent",
+    "features": [
+      "Auto-fill",
+      "Password generator",
+      "Biometric login"
+    ],
+    "icon": "https://img.icons8.com/color/48/password.png"
+  },
+  {
+    "id": "8",
+    "name": "CloudDrive 1TB",
+    "description": "Secure cloud storage solution for backing up all your important files.",
+    "price": 99.00,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "primary",
+    "features": [
+      "1TB Storage",
+      "Auto backup",
+      "File sharing"
+    ],
+    "icon": "https://img.icons8.com/color/48/cloud.png"
+  }
+]
