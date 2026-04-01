@@ -1,6 +1,7 @@
 import React from 'react';
 import { CircleDot, Play } from 'lucide-react';
-import bannerImg from './assets/banner.png';
+import bannerImg from '../assets/banner.png';
+
 
 const Banner = () => {
   return (
@@ -37,7 +38,7 @@ const Banner = () => {
 
         <div className="flex justify-center lg:justify-end w-full">
           <img 
-            src={bannerImg} 
+            src={bannerImg}
             className="w-full h-auto object-contain aspect-[4/3] lg:aspect-square max-w-[450px] lg:max-w-[600px] rounded-2xl"
           />
         </div>
