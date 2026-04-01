@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = ({ cartCount }) => {
   return (
-    <div className="navbar bg-base-100 px-2 lg:px-12 py-3 w-full sticky top-0 z-50 shadow-sm">
+    <div className="navbar bg-base-100 px-2 lg:px-12 py-3 w-full top-0 z-50 shadow-sm">
       <div className="navbar-start w-auto lg:w-[50%]">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden px-2">

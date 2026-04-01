@@ -10,6 +10,8 @@ import Products from './components/Products';
 import Cart from './components/Cart';
 import { toast } from 'react-toastify';
 import { useEffect } from 'react';
+import Steps from './components/Steps';
+
 
 function App() {
   const [myCarts, setMyCarts] = useState([]);
@@ -81,7 +83,7 @@ function App() {
 
         </div>
       </div>
-
+          <Steps />
       <Footer />
       <ToastContainer position="top-center" autoClose={1500} />
     </div>
